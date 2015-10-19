@@ -9,7 +9,7 @@ from pilas.actores import Aceituna
 def incrementarEscala(actores, escala):
     for f in  actores:
         f.escala = escala
-    
+
 def esquiva(robot):
     robot.backward(40, 1)
     robot.turnRight(50, 0.5)

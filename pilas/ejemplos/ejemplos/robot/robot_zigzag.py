@@ -13,7 +13,7 @@ b = pilas.actores.Board("/dev/tty/USB0")
 r = pilas.actores.Robot(b,1)
 r.subelapiz()
 r.x = -300
-r.y = 300 
+r.y = 300
 r.bajalapiz()
 
 pilas.avisar("El robot hace zigzag")

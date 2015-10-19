@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 
-# Importat la librería 
+# Importat la librería
 import pilas
 
-#Inniciar 
+#Inniciar
 pilas.iniciar()
 
 
@@ -25,10 +25,10 @@ while  r.ping() > 30 :
   #  pilas.avisar("Distancia entre el Robot y el Mono:", r.ping())
     pilas.avisar("Distancia entre el Robot y el Mono: " +  str(r.ping()))
 # Se acerca al Mono
-m.decir("Cuidado!!!!!")        
+m.decir("Cuidado!!!!!")
 
-# Detener el Robot        
-r.stop() 
+# Detener el Robot
+r.stop()
 print r.getName()
 
 pilas.ejecutar()

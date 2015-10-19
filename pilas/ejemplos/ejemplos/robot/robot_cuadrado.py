@@ -9,9 +9,8 @@ pilas.iniciar()
 b = pilas.actores.Board("/dev/tty/USB0")
 r = pilas.actores.Robot(b, 1)
 
-pilas.avisar("El Robor hace un cuadrado.")
+pilas.avisar("El Robot hace un cuadrado.")
 
 for i in range(0,4):
     cuadrado(r)
-
 pilas.ejecutar()
