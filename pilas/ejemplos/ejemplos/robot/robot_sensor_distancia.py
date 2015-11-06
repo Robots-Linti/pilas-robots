@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 
-# Importat la librería
+# Importar la librería
 import pilas
 
-#Inniciar
+#Iniciar
 pilas.iniciar()
 
 
