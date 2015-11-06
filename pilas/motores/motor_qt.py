@@ -1096,6 +1096,7 @@ class Motor(object):
             self.clase_musica = MusicaDeshabilitada
 
     def terminar(self):
+        pygame.mixer.stop()
         self.ventana.close()
 
     def iniciar_ventana(self, ancho, alto, titulo, pantalla_completa,
