@@ -111,12 +111,12 @@ class Juego(pilas.escena.Base):
         self.puntaje.aumentar(1)
 
     def crear_contador_de_vidas(self):
-        from . import contador_de_vidas
+        import contador_de_vidas
         self.contador_de_vidas = contador_de_vidas.ContadorDeVidas(3)
 
     def cuando_pulsa_tecla_escape(self, *k, **kv):
         "Regresa al menu principal."
-        from . import escena_menu
+        import escena_menu
         pilas.cambiar_escena(escena_menu.EscenaMenu())
 
     def explotar_y_terminar(self, nave, piedra):
