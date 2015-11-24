@@ -110,12 +110,12 @@ class EscenaMenu(pilas.escena.Base):
 
 
     def iniciar_juego(self):
-        from . import escena_juego
+        import escena_juego
         pilas.cambiar_escena(escena_juego.Juego(nivel = 1))
 
     def salir_del_juego(self):
         pilas.terminar()
 
     def mostrar_ayuda(self):
-        from . import escena_ayuda
+        import escena_ayuda
         pilas.cambiar_escena(escena_ayuda.Ayuda())

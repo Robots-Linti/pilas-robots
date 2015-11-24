@@ -1,5 +1,5 @@
 import pilas
-from . import piedra_espacial
+import piedra_espacial
 import random
 
 class Estado:
