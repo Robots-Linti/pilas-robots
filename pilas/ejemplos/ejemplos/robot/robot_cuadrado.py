@@ -11,7 +11,7 @@ class RoCuadrado():
 	def __init__(self):
 		self.cant = 0
 		
-pilas.avisar("El Robor hace un cuadrado.")
+pilas.avisar("El Robot hace un cuadrado.")
 ro = RoCuadrado()
 
 
